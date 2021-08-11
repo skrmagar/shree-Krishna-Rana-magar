@@ -1,0 +1,261 @@
+.col-1{width:8.33%; float: left;}
+.col-2{width:16.66%; float: left;}
+.col-3{width:25%; float: left;}
+.col-4{width:33.33%; float: left;}
+.col-5{width:41.66%; float: left;}
+.col-6{width:50%; float: left;}
+.col-7{width:58.33%; float: left;}
+.col-8{width:66.66%; float: left;}
+.col-9{width:75%; float: left;}
+.col-10{width:83.33%; float: left;}
+.col-11{width:91.66%; float: left;}
+.col-12{width:100%; float: left;}
+
+body{
+	margin: 0px;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.head{
+	width: auto;
+	height: 100px;
+	background-color: #1A2020;
+
+}
+
+
+.image11{
+	width: 100px;
+	height: 60px;
+	float: left;
+	padding-top: 20px;
+	
+
+}
+
+
+
+.frist{
+	width: 400px;
+	height: 100px;
+	float: left;
+	text-align: left;
+	color: yellow;
+	padding-top: 15px;
+	padding-left: 20px;
+	text-shadow: 2px 2px 2px green; 
+}
+.home{
+	width: 500px;
+	height: auto;
+	float: right;
+
+}
+
+.home1{
+	padding-top: 60px;
+}
+
+.home1 li{
+	display: inline;
+	padding: 10px;
+	margin-right: 50px;
+	color: yellow;
+	font-family: arial;
+
+
+
+}
+
+.home1 li:hover{
+	cursor: pointer;
+	background-color: red;
+	transition: 0.7s;
+}
+
+.hero{
+	height: 100vh;
+	background-image: url("20160914_163824-EFFECTS (3).jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+
+.hero1{
+	width: 520px;
+	height: 320px;
+	background-image: url("MYXJ_20171224094044_fast (3).jpg");
+	float: left;
+	text-align: center;
+	opacity: 0.9;
+	margin: auto;
+	margin-top: 150px;
+	border: 3px solid green;
+	border-radius: 20px;
+
+}
+
+
+.hero1:hover{
+	cursor: pointer;
+	transition: 0.2s;
+	background-image: url("MYXJ_20171224094044_fast (2).jpg");
+	border: 5px double green;
+	border-radius: 50%;
+
+}
+
+.welcome{
+	color: #FF6C00;
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bolder;
+	padding-top: 25px;
+	text-shadow: 2px 2px 2px green;
+
+}
+
+.beauty{
+	color: #FF0072;
+	padding-top: 40px;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px green;
+}
+.btn1{
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+.btn1:hover{
+	cursor: pointer;
+	transition: 0.7s;
+	border: 2px solid green;
+	border-radius: 20px;
+	opacity: 0.5;
+	color: blue;
+}
+
+
+
+.fotoor{
+	height: 115vh;
+	background-color: #CFEDEF;
+
+}
+
+.foto{
+	width: 998px;
+	height: 450px;
+	background-color: green;
+	
+	float: left;
+
+}
+
+.shree{
+	color: #fff;
+	padding-left: 100px;
+	padding-top: 50px;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px #000;
+
+}
+
+.computer{
+
+	color: #fff;
+	padding-left: 100px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.icon{
+	padding-left: 130px;
+	color: #fff;
+	font-family: arial;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.foto1{
+	width: 200px;
+	height: 450px;
+	background-color: green;
+
+	float: left;
+	
+	transform: skewX(20deg);
+	margin-left: -90px;
+
+}
+
+.images{
+	width: 300px;
+	height: 500px;
+	float: left;
+	margin-left: -60px;
+}
+
+.about{
+	width: auto;
+	height: 300px	;
+	background-color: #88D0D4;
+	margin-top: 80px;
+	border:  2px solid #fff;
+}
+
+.about1{
+	color: purple;
+	font-family: arial;
+	font-weight: bold;
+	text-indent: 60px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-shadow: 1px 1px 1px #fff;
+	padding-top: 50px;
+
+}
+
+
+.butt{
+	width: auto;
+	height: 50px;
+	padding-left: 450px;
+}
+.btn{
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	
+	color: #fff;
+	background-color: green;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.btn:hover{
+	cursor: pointer;
+	border: 2px solid #000;
+	transition: 0.7s;
+}
